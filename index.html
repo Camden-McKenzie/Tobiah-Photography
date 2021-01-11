@@ -6,11 +6,12 @@ layout: default
 <div id="wrapper">
 
     <!-- Header -->
-    <header id="header">
-        <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
+    <header id="header" onclick="bringTop()">
+        <h1><div id="topButton"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</div></h1>
         <nav>
-            <ul>
-                <li><a href="#footer" class="icon fa-info-circle">Contact</a></li>
+            <ul>                
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -31,7 +32,7 @@ layout: default
     </div>
 
     <!-- Footer -->
-    <footer id="footer" class="panel">
+    <footer id="about" class="panel">
         <div class="inner split">
             <div>
                 <section>
@@ -39,6 +40,9 @@ layout: default
                     <p>{{ site.footer.bio }}</p>
                     <p>{{ site.footer.github }}</p>
                 </section>
+            </div>
+            <!--
+            <div>
                 <section>
                     <h2>Follow me on ...</h2>
                     <ul class="icons">
@@ -90,6 +94,11 @@ layout: default
                     &copy; {{ site.author }}. Design: {{ site.web_design }}
                 </p>
             </div>
+        -->
+        </div>
+    </footer>
+    <footer id="contact" class="panel">
+        <div class="inner split">
             <div>
                 <section>
                     <h2>Inquire</h2>
@@ -97,7 +106,7 @@ layout: default
                       Contact Email:<br>
                       <input type="text" name="entry.400693599" id="entry.400693599"><br>
                       Message:<br>
-                      <input type="text" name="entry.1106393515" id="entry.1106393515"><br>
+                      <textarea rows="4" name="entry.1106393515" id="entry.1106393515"></textarea><br>
                       <input type="submit" value="Submit"><br>
                     </form>
 

@@ -1,0 +1,20 @@
+{
+    "liveServer.settings.file": "index.html",
+    "liveServer.settings.donotVerifyTags": true,
+    "scss.completion.completePropertyWithSemicolon": false,
+    "remote.SSH.defaultExtensions": [
+        ".css"
+    ],
+    "previewServer.startupProject": "TOBIAH-PHOTOGRAPHY",
+    "previewServer.isWatchConfiguration": false,
+    "npm.packageManager": "npm",
+    "markdown.styles": [
+        "\\assets",
+        "\\assets\\css\\main.css",
+        "\\assets\\css\\main.min.css",
+        "\\assets\\css\\ie8.css",
+        "\\assets\\css\\ie9.css",
+        "\\assets\\css\\font-awesome.min.css",
+        "\\assets\\fonts"
+    ]
+}
