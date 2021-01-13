@@ -10,8 +10,7 @@ layout: default
         <h1><div id="topButton"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</div></h1>
         <nav>
             <ul>                
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -34,6 +33,7 @@ layout: default
     <!-- Footer -->
     <footer id="about" class="panel">
         <div class="inner split">
+            <!--Introduction Section-->
             <div>
                 <section>
                     <h2>{{ site.footer.name }}</h2>
@@ -41,67 +41,12 @@ layout: default
                     <p>{{ site.footer.github }}</p>
                 </section>
             </div>
-            <!--
-            <div>
-                <section>
-                    <h2>Follow me on ...</h2>
-                    <ul class="icons">
-                        {% if site.social_urls.facebook %}
-                            <li>
-                                <a href="{{ site.social_urls.facebook }}" class="icon fa-facebook">
-                                    <span class="label">Facebook</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.twitter %}
-                            <li>
-                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
-                                    <span class="label">Twitter</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.instagram %}
-                            <li>
-                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
-                                    <span class="label">Instagram</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.dribbble %}
-                            <li>
-                                <a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble">
-                                    <span class="label">Dribbble</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.github %}
-                            <li>
-                                <a href="{{ site.social_urls.github }}" class="icon fa-github">
-                                    <span class="label">GitHub</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.linkedin %}
-                            <li>
-                                <a href="{{ site.social_urls.linkedin }}" class="icon fa-linkedin">
-                                    <span class="label">LinkedIn</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                    </ul>
-                </section>
-                <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
-                </p>
-            </div>
-        -->
-        </div>
-    </footer>
-    <footer id="contact" class="panel">
-        <div class="inner split">
+            <!--Inquire Section-->
             <div>
                 <section>
                     <h2>Inquire</h2>
+                    
+                    <!--Uses Google Forms to collect responses-->
                     <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfDqWEApAkHPJYviLjpiN8yWx-mHq-TyOJvNuYdkjLCBHSZ6g/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                       Contact Email:<br>
                       <input type="text" name="entry.400693599" id="entry.400693599"><br>
